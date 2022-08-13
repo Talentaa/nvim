@@ -24,7 +24,5 @@ vim.api.nvim_set_keymap('n', '<C-d>', '9j', {noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'tt', ':NvimTreeOpen<CR>', {noremap = true, silent = true})
 
 
-vim.api.nvim_set_keymap('n', '<A-z>', ':TSBufToggle indent<CR>', {noremap = true, silent = true})
-
 
 
