@@ -11,7 +11,7 @@ require 'nvim-treesitter.configs'.setup {
 
         enable = true,
 
-        disable = {"rust"},
+        -- disable = {"rust"},
 
         additional_vim_regex_highlighting = false,
 

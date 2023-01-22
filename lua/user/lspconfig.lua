@@ -6,7 +6,10 @@ require('nvim-lsp-installer').setup({
       server_pending = "➜",
       server_uninstalled = "✗"
     }
-  }
+  },
+  pip = {
+	  { "--proxy", "http://127.0.0.1:10809" }
+    }
 })
 
 
