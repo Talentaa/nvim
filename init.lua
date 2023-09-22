@@ -1,15 +1,2 @@
-vim.g.mapleader = "'"
-vim.g.maplocalleder = ""
-
-require 'myself.plugins'
-require 'myself.options'
-require 'myself.keymaps'
-
--- require 'user.lspconfig'
-require 'user.cmp'
-require 'user.tree'
-require 'user.lualine'
-require 'user.mason'
-require 'user.mason-lspconfig'
--- require 'user.rust-tools'
-require 'user.tokyonight'
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
